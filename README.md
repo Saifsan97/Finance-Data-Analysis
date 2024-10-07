@@ -11,12 +11,17 @@ The analysis is further enhanced with advanced visualizations and explorations u
 # Objective:
 The primary objectives of this project are to develop a comprehensive, data-driven dashboard that will allow the bank to:
 
-1. **Track Loan Applications**: Measure the total number of loan applications, including Month-to-Date (MTD) and Month-over-Month (MoM) changes, to gain insight into the trends and demands of loan applicants.
-2. **Monitor Disbursed Loans**: Calculate and track the total amount of loans funded during a specific period, including MTD funded loans and MoM changes, to understand lending volumes and variations over time.
-3. **Assess Loan Repayment**: Track the total amount received from borrowers and analyze MTD and MoM changes to evaluate the bank's cash flow and repayment patterns.
-4. **Analyze Financial Health**: Calculate the average interest rate and Debt-to-Income (DTI) ratio across all loans, providing a comprehensive look at the cost of lending and the financial stability of borrowers.
-5. **Visualize Lending Patterns**: Provide detailed data visualizations, including monthly trends, regional analysis, loan term distributions, and borrower demographics, allowing for better insights into loan activity across different dimensions.
-6. **Support Decision-Making**: Enable stakeholders to make data-informed decisions by identifying lending trends, understanding borrower behavior, and recognizing regional disparities in loan applications and funding.
+* **Track Loan Applications**: Measure the total number of loan applications, including Month-to-Date (MTD) and Month-over-Month (MoM) changes, to gain insight into the trends and demands of loan applicants.
+  
+* **Monitor Disbursed Loans**: Calculate and track the total amount of loans funded during a specific period, including MTD funded loans and MoM changes, to understand lending volumes and variations over time.
+  
+* **Assess Loan Repayment**: Track the total amount received from borrowers and analyze MTD and MoM changes to evaluate the bank's cash flow and repayment patterns.
+  
+* **Analyze Financial Health**: Calculate the average interest rate and Debt-to-Income (DTI) ratio across all loans, providing a comprehensive look at the cost of lending and the financial stability of borrowers.
+  
+* **Visualize Lending Patterns**: Provide detailed data visualizations, including monthly trends, regional analysis, loan term distributions, and borrower demographics, allowing for better insights into loan activity across different dimensions.
+  
+* **Support Decision-Making**: Enable stakeholders to make data-informed decisions by identifying lending trends, understanding borrower behavior, and recognizing regional disparities in loan applications and funding.
   
 
 
@@ -53,19 +58,30 @@ The primary objectives of this project are to develop a comprehensive, data-driv
 | Interest Rate |   The percentage interest charged on the loan, stored as a decimal value |
 | Loan Amount |  The total amount of the loan, typically stored with two decimal places for precision  |
 
-# Data Integrity:
+# Recommendations for various stakeholders:
+
+## Bank Employees
+* **Advanced Employee Performance Metrics**: Develop tools to track employee-specific KPIs, such as loan officer performance, application approval rates, and customer satisfaction, to enhance individual accountability and productivity.
+
+* **Loan Risk Prediction Models**: Implement predictive analytics using machine learning to provide employees with early warnings on high-risk loans based on historical borrower behavior, improving loan approval decisions and risk management.
+
+## Bank Management
+* **Predictive Analytics for Strategic Planning**: Integrate AI and machine learning models that can predict future loan demand, repayment likelihood, and default risks. These tools can assist management in setting more accurate financial targets and adjusting strategies in advance.
+
+* **Granular Regional Analysis**: Develop more detailed regional insights, possibly by city or neighborhood, allowing management to identify micro-market trends and tailor regional lending strategies accordingly.
+
+
+
+# Limitation of the project:
+
+* **Data Dependency**: The effectiveness of the dashboard heavily depends on the accuracy and completeness of the data input. Any inconsistencies or delays in data collection may result in skewed results, leading to misinformed decision-making.
+  
+* **Limited Predictive Capabilities**: The current system is focused on historical data analysis and trend identification, but it lacks predictive analytics or machine learning capabilities that could forecast future loan demand or borrower behavior.
+  
+* **Regional Insights May Lack Granularity**: While the dashboard provides regional analysis by state, it may not offer sufficient granularity to assess lending trends at a more localized level (e.g., by city or county), which might be crucial for certain decision-making processes.
+  
+* **Static Visualizations**: The dashboard is limited to pre-defined KPIs and visualizations. It lacks real-time customization features that allow users to adjust filters, compare different periods dynamically, or conduct ad-hoc analysis based on emerging questions.
 
 
 
 
-https://github.com/MengLi00Julia/bank-loan-data-analysis/tree/main
-https://github.com/virajbhutada/Bank-Loan-Analysis-SQL-PowerBI-Excel-Tableau/tree/main
-https://github.com/Rakesh3596/RBI-Bank-Loan-Analysis-Project/tree/main
-https://github.com/sinderpreet31/Bank_loan_analysis-SQL-PowerBI-
-https://github.com/shubhampokhrel81/Bank-Loan-Data-Analysis-SQL-Power-BI/tree/main
-https://github.com/Shelly74/Bank-Loan-Analysis
-
-database
-https://www.kaggle.com/datasets/utkarshx27/lending-club-loan-dataset
-https://www.kaggle.com/code/imsparsh/lending-club-insightful-loan-default-eda#4.-Standardize-the-Data
-https://www.kaggle.com/code/dbdmobile/loan-prediction-using-ann#Importing-all-necessary-libraries-
