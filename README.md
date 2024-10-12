@@ -28,7 +28,7 @@ The primary objectives of this project are to develop a comprehensive, data-driv
  # Tools used:
 
 1. **Microsoft Excel** - to clean the dataset
-2. **MySQL** - to data normalization and analysis process
+2. **Excel & MySQL** - to data normalization and analysis process
 3. **Datawrapper** - to create data visualizations
 4. **Tableau** - to create dashboard
 5. **GitHub** - for documentation
@@ -45,42 +45,56 @@ The primary objectives of this project are to develop a comprehensive, data-driv
 | Subgrade |   A more detailed risk rating within the grade (e.g., A1, B2) |
 | Home Ownership |  The borrower's home ownership status (e.g., "Rent", "Mortgage", "Own") |
 | Issue Date |  	 The date when the loan was issued |
-| Last Credit Pull Date |  The records when the borrower's credit report was last accessed |
 | Last Payment Date |  The most recent loan payment received |
 | Loan Status	|   The current status of the loan, such as "Fully Paid," "Charged Off," etc |
-| Next Payment Date |  The date of the next loan payment. It assists in cash flow forecasting |
 | Purpose	|  The reason for the loan (e.g., "Debt Consolidation", "Home Improvement") |
 | Loan Term |   The length of the loan (e.g., "36 months", "60 months") |
 | Verification Status	|  Indication whether the borrower's financial information has been verified |
 | Annual Income	|  The borrower's total yearly earnings. It assesses repayment capacity |
 | Debt to Income (DTI) |   The Ratio of borrower’s monthly debt payments to their income |
-| Installment |   The monthly payment amount the borrower must pay |
-| Interest Rate |   The percentage interest charged on the loan, stored as a decimal value |
-| Loan Amount |  The total amount of the loan, typically stored with two decimal places for precision  |
+
 
 # Recommendations for various stakeholders:
 
 ## Bank Employees
 * **Advanced Employee Performance Metrics**: Develop tools to track employee-specific KPIs, such as loan officer performance, application approval rates, and customer satisfaction, to enhance individual accountability and productivity.
 
-* **Loan Risk Prediction Models**: Implement predictive analytics using machine learning to provide employees with early warnings on high-risk loans based on historical borrower behavior, improving loan approval decisions and risk management.
+*  **Enhance Customer Interaction for Mortgage Holders and Renters**: Focus on offering personalized loan products, such as refinancing options, home equity loans, and tailored personal loans for renters, particularly for home improvement and debt consolidation. 
+*  **Data-Driven Loan Offerings**: Use the data to guide personalized loan offers. For example, customers with strong repayment histories could receive targeted offers for larger loans, lower interest rates, or refinancing options.
+*  **Gather More Customer Insights**: Employees should collect data and conduct surveys to better understand why certain customer segments, like "none" and "other," have minimal engagement with the bank's loan offerings.
+
+
 
 ## Bank Management
 * **Predictive Analytics for Strategic Planning**: Integrate AI and machine learning models that can predict future loan demand, repayment likelihood, and default risks. These tools can assist management in setting more accurate financial targets and adjusting strategies in advance.
+* **Geographical Targeting**: Focus on regions where loan applications are low but repayment rates are high, like certain underutilized states. Marketing campaigns and outreach programs tailored to high-potential regions could increase loan applications. Regions such as California, Texas, New York, and Florida demonstrate high loan activity and repayments. Management should continue to focus on these areas, but also consider expanding to underrepresented states with good repayment rates, such as Washington, Colorado, and Massachusetts.
 
-* **Granular Regional Analysis**: Develop more detailed regional insights, possibly by city or neighborhood, allowing management to identify micro-market trends and tailor regional lending strategies accordingly.
+* **Product Innovation for Underrepresented Groups**: Investigate opportunities in the "none" and "other" homeownership categories. Even though these segments are small, there may be a niche for unique financial products, such as shared housing loans or alternative housing financing.
+
+* **Leverage Employee Tenure Data**: Utilize the insights from employee length of employment to develop loan products targeting mid-career professionals. Employees with 2 to 5 years of tenure tend to be high loan applicants with strong repayment, so specialized loan products for this group, like career development loans or advanced education loans, could be attractive.
+
+* **Monitor External Economic Trends**: Incorporate economic indicators such as changes in interest rates, inflation, and housing market trends into future loan projects. This will help the bank to be more adaptable to market shifts and continue targeting the right customer segments.
+
+
+
+
 
 
 
 # Limitation of the project:
 
-* **Data Dependency**: The effectiveness of the dashboard heavily depends on the accuracy and completeness of the data input. Any inconsistencies or delays in data collection may result in skewed results, leading to misinformed decision-making.
   
-* **Limited Predictive Capabilities**: The current system is focused on historical data analysis and trend identification, but it lacks predictive analytics or machine learning capabilities that could forecast future loan demand or borrower behavior.
+* **Regional Disparities**: Some states have negligible loan activity. The bank’s market penetration appears to be uneven across regions, potentially missing growth opportunities in underrepresented states.
   
-* **Regional Insights May Lack Granularity**: While the dashboard provides regional analysis by state, it may not offer sufficient granularity to assess lending trends at a more localized level (e.g., by city or county), which might be crucial for certain decision-making processes.
+* **Narrow Loan Terms**: The data only reflects two loan term options: 36 months and 60 months, which limits insight into customer preferences for other potential loan durations, such as shorter-term or longer-term loans (e.g., 12 months, 48 months). This gap restricts understanding of broader customer needs.
   
-* **Static Visualizations**: The dashboard is limited to pre-defined KPIs and visualizations. It lacks real-time customization features that allow users to adjust filters, compare different periods dynamically, or conduct ad-hoc analysis based on emerging questions.
+* **Lack of Creditworthiness Data**: The analysis does not account for credit scores, income levels, or debt-to-income ratios. This omission limits the bank's ability to understand the risk associated with different borrower groups and the likelihood of defaults.
+  
+* **Limited Data on Certain Demographics**: There is very little data on loan applications from the "none" and "other" homeownership categories. This limits the bank's understanding of potential market opportunities or challenges in these smaller segments.
+
+
+
+
 
 
 
